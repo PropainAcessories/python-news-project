@@ -13,7 +13,7 @@ def index():
     'homepage.html',
     posts=posts,
     loggedIn=session.get('loggedIn')
-    )
+  )
 
 @bp.route('/login')
 def login():
